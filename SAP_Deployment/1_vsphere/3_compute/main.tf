@@ -2,8 +2,8 @@
 #test
 # SETUP
 module "compute" {
-  source  = "ptfe.this-demo.rocks/VMware-Demo/SAP_Deployment/compute"
-  version = "1.0.6"
+  source  = "ptfe.this-demo.rocks/VMware-Demo/terraform-vsphere-sap-module/
+  version = "1.0.0"
 prefix = "${var.prefix}"
 
 // VM Details
